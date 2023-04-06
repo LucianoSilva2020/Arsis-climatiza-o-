@@ -78,9 +78,27 @@
                 font-size: 11px
             }
         }
+
         h1 {
             text-align: center;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .divimg {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .img {
+            border-radius: 4%;
+            height: 200px;
+            width: 200px;
+            box-shadow: 5px 5px #18161617;
+        }
+
+        .divCenter {
+            display: flex;
+            justify-content: space-around;
         }
     </style>
 </head>
@@ -90,17 +108,17 @@
 
         <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
-            <img src="img/WhatsApp Image 2023-04-06 at 03.04.41.jpeg" style="width:100%">
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
             <img src="img/WhatsApp Image 2023-04-06 at 03.04.42 (1).jpeg" style="width:100%">
         </div>
 
         <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/WhatsApp Image 2023-04-06 at 03.04.42 (2).jpeg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
             <div class="numbertext">3 / 3</div>
-            <img src="img/WhatsApp Image 2023-04-06 at 03.04.42.jpeg" style="width:100%">
+            <img src="img/WhatsApp Image 2023-04-06 at 03.04.42 (3).jpeg" style="width:100%">
         </div>
 
     </div>
@@ -113,7 +131,26 @@
     </div>
 
     <h1>Arsis climatização</h1>
+    <div class="divCenter">
+        <div>
+            <img src="icones/ar-condicionado (3).png">
+            <h4>Manutenção</h4>
+        </div>
+        <div>
+            <img src="icones/broca (1).png">
+            <h4>Instalação</h4>
+        </div>
+    </div>
 
+    <div class="divimg">
+        <div>
+            <img class="img" src="img/download.jpg">
+        </div>
+        <div>
+            <img class="img" src="img/Sem título.jpeg">
+        </div>
+    </div>
+    <p>tghfjjjytj</p>
     <script>
         let slideIndex = 0;
         showSlides();
