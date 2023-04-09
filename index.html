@@ -25,14 +25,12 @@
             vertical-align: middle;
         }
 
-        /* Slideshow container */
         .slideshow-container {
             max-width: 1000px;
             position: relative;
             margin: auto;
         }
 
-        /* Number text (1/3 etc) */
         .numbertext {
             color: #f2f2f2;
             font-size: 12px;
@@ -41,7 +39,6 @@
             top: 0;
         }
 
-        /* The dots/bullets/indicators */
         .dot {
             height: 15px;
             width: 15px;
@@ -56,7 +53,6 @@
             background-color: #717171;
         }
 
-        /* Fading animation */
         .fade {
             animation-name: fade;
             animation-duration: 1.5s;
@@ -72,7 +68,6 @@
             }
         }
 
-        /* On smaller screens, decrease text size */
         @media only screen and (max-width: 300px) {
             .text {
                 font-size: 11px
@@ -86,17 +81,27 @@
             color: rgba(146, 16, 232, 0.849);
         }
 
-        .divimg {
-            display: flex;
-            justify-content: space-around;
-            margin-bottom: 40px;
+        @media screen and (min-width: 870px) {
+            .divimg {
+                display: flex;
+                justify-content: space-around;
+                margin-bottom: 40px;
+            }
         }
 
+        @media screen and (min-width: 870px) {
+            .img {
+                height: 240px;
+                width: 340px;
+                border-radius: 3%;
+                box-shadow: 5px 5px 5px 4px rgba(50, 68, 74, 0.292);
+            }
+        }
+        
         .img {
-            border-radius: 4%;
-            height: 200px;
-            width: 200px;
-            box-shadow: 5px 5px #18161617;
+            margin-bottom: 40px;
+            height: 330px;
+            width: 100%;
         }
 
         .divCenter {
@@ -114,12 +119,13 @@
             margin-bottom: 30px;
             box-shadow: 5px 5px 5px 4px rgba(50, 68, 74, 0.292);
         }
-        .divvantagens > div {
+
+        .divvantagens>div {
             font-size: 80%;
             padding: 1%;
         }
 
-        .manutencao > div {
+        .manutencao>div {
             background-color: rgba(183, 111, 225, 0.153);
             height: auto;
             width: 100%;
@@ -128,7 +134,7 @@
             padding: 7px;
         }
 
-        .manutencao > div > h4 {
+        .manutencao>div>h4 {
             color: #0b0808;
             text-align: center;
         }
@@ -138,7 +144,8 @@
             color: #0c0909;
             font-size: 82%;
         }
-        .divvantagens > div > h3{
+
+        .divvantagens>div>h3 {
             text-align: center;
         }
 
@@ -214,7 +221,8 @@
         </div>
         <div>
             <h5>EXCELENTE CUSTO-BENEFÍCIO</h5>
-            <p>- Nossos preços são justos, e os clientes sentem que valeu a pena. Como somos transparentes com o cliente,
+            <p>- Nossos preços são justos, e os clientes sentem que valeu a pena. Como somos transparentes com o
+                cliente,
                 nosso preço sempre é competitivo, e tem uma excelente relação custo-benefício.</p>
         </div>
     </div>
@@ -229,13 +237,13 @@
     </div>
     <div class="manutencao">
         <div>
-        <h4>Benefícios de limpar seu ar-condicionado!</h4>
-        <p>- Redução do consumo de energia</p>
-        <p>- Aumento da vida útil</p>
-        <p>- Melhoria da eficiência</p>
-        <p>- Redução dos ruídos</p>
-        <p>- Ar mais saudável, puro e de qualidade.</p>
-    </div>
+            <h4>Benefícios de limpar seu ar-condicionado!</h4>
+            <p>- Redução do consumo de energia</p>
+            <p>- Aumento da vida útil</p>
+            <p>- Melhoria da eficiência</p>
+            <p>- Redução dos ruídos</p>
+            <p>- Ar mais saudável, puro e de qualidade.</p>
+        </div>
     </div>
     <h1>
         Marcas com a quais trabalhamos
