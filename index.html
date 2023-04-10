@@ -156,12 +156,14 @@
             height: auto;
             width: 100%;
         }
+
         footer {
-            background-color:rgba(10, 218, 241, 0.381);
+            background-color: rgba(10, 218, 241, 0.381);
             height: auto;
             width: auto;
             font-family: cursive;
             padding-top: 40px;
+            margin-top: 17px;
         }
 
         .footer-content {
@@ -171,6 +173,7 @@
             flex-direction: column;
             text-align: center;
         }
+
         ul {
             list-style: none;
             display: flex;
@@ -178,11 +181,50 @@
             justify-content: center;
             margin: 1rem 0 3rem 0;
         }
-        
+
         ul>li>a {
             text-decoration: none;
             margin: 0 14px;
             color: black;
+        }
+
+        .row {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+
+
+        .column {
+            -ms-flex: 25%;
+            flex: 25%;
+            max-width: 25%;
+            padding: 0 4px;
+        }
+
+        .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+            width: 100%;
+        }
+
+
+        @media screen and (max-width: 800px) {
+            .column {
+                -ms-flex: 50%;
+                flex: 50%;
+                max-width: 50%;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .column {
+                -ms-flex: 100%;
+                flex: 100%;
+                max-width: 100%;
+            }
         }
     </style>
 </head>
@@ -214,7 +256,7 @@
         <span class="dot"></span>
     </div>
 
-    <h1>Arsis climatização</h1>
+    <h1>Arsis <br> climatização</h1>
     <div class="divCenter">
         <div>
             <img src="icones/ar-condicionado (3).png">
@@ -276,8 +318,39 @@
             <p>- Ar mais saudável, puro e de qualidade.</p>
         </div>
     </div>
+
+    <h1>Galeria dos nossos <br> serviços</h1>
+
+    <div class="row">
+        <div class="column">
+            <img src="galeria/WhatsApp Image 2023-04-06 at 16.09.48 (3).jpeg" style="width:100%">
+            <img src="galeria/WhatsApp Image 2023-04-06 at 16.09.48 (4).jpeg" style="width:100%">
+            <img src="galeria/WhatsApp Image 2023-04-06 at 16.09.49.jpeg" style="width:100%">
+            <img src="galeria/WhatsApp Image 2023-04-06 at 16.09.50 (1).jpeg" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="galeria/WhatsApp Image 2023-04-06 at 16.09.51 (4).jpeg" style="width:100%">
+            <img src="galeria/WhatsApp Image 2023-04-06 at 16.09.51 (3).jpeg" style="width:100%">
+            <img src="galeria/WhatsApp Image 2023-04-06 at 16.09.51 (2).jpeg" style="width:100%">
+            <img src="galeria/WhatsApp Image 2023-04-06 at 16.09.51 (4).jpeg" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="galeria/WhatsApp Image 2023-04-06 at 16.09.48 (3).jpeg" style="width:100%">
+            <img src="galeria/WhatsApp Image 2023-04-06 at 16.09.48 (4).jpeg" style="width:100%">
+            <img src="galeria/WhatsApp Image 2023-04-06 at 16.09.49 (1).jpeg" style="width:100%">
+            <img src="galeria/WhatsApp Image 2023-04-06 at 16.09.49.jpeg" style="width:100%">
+            <img src="galeria/WhatsApp Image 2023-04-06 at 16.09.49.jpeg" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="galeria/WhatsApp Image 2023-04-06 at 16.09.50 (2).jpeg" style="width:100%">
+            <img src="galeria/WhatsApp Image 2023-04-06 at 16.09.50 (3).jpeg" style="width:100%">
+            <img src="galeria/WhatsApp Image 2023-04-06 at 16.09.51 (2).jpeg" style="width:100%">
+            <img src="galeria/WhatsApp Image 2023-04-06 at 16.09.51 (3).jpeg" style="width:100%">
+        </div>
+    </div>
+
     <h1>
-        Marcas com a quais trabalhamos
+        Marcas com a quais <br> trabalhamos
     </h1>
     <img class="marcas" src="img/0f7a1b6bc60ac09a3a377eea5fc49fb9.png" alt="">
 
